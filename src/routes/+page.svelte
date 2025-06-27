@@ -12,7 +12,7 @@
 <!-- Hero Section -->
 <section class="bg-surface border-border border-b-2 py-24 md:py-32 lg:py-40">
 	<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-		<h1 class="mb-6 text-5xl font-semibold md:text-7xl lg:text-9xl">
+		<h1 class="mb-6 text-5xl font-semibold md:text-7xl lg:text-9xl lowercase">
 			{config.name}
 		</h1>
 		<p class="text-text-secondary max-w-2xl text-xl md:text-2xl">
@@ -20,18 +20,18 @@
 		</p>
 
 		<!-- Primary CTA -->
-		<div class="mt-12 flex flex-wrap justify-center gap-4">
-			<a
-				href="/portfolio"
-				class="bg-primary hover:bg-black hover:text-white inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
-			>
-				view my work
-			</a>
+		<div class="mt-12 flex flex-wrap gap-4">
 			<a
 				href="/contact"
 				class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
 			>
 				get in touch
+			</a>
+			<a
+				href="/portfolio"
+				class="bg-primary inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200 hover:bg-black hover:text-white"
+			>
+				view my work
 			</a>
 		</div>
 	</div>
@@ -51,7 +51,7 @@
 				</p>
 				<a
 					href="/portfolio"
-					class="hover:text-white inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
+					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
 				>
 					view projects →
 				</a>
@@ -67,7 +67,7 @@
 				</p>
 				<a
 					href="/about"
-					class="hover:text-white inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
+					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
 				>
 					learn more →
 				</a>
@@ -81,7 +81,7 @@
 				<p class="text-text-secondary mb-6 text-base leading-relaxed md:text-lg">by saying hello</p>
 				<a
 					href="/contact"
-					class="hover:text-white inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
+					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
 				>
 					say hello →
 				</a>
