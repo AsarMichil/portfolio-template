@@ -23,7 +23,7 @@
 		<div class="mt-12 flex flex-wrap justify-center gap-4">
 			<a
 				href="/portfolio"
-				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+				class="bg-primary hover:bg-black hover:text-white inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
 			>
 				view my work
 			</a>
