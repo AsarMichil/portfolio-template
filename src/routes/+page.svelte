@@ -20,7 +20,7 @@
 		</p>
 
 		<!-- Primary CTA -->
-		<div class="mt-12 flex flex-wrap gap-4">
+		<div class="mt-8 flex flex-wrap gap-4">
 			<a
 				href="/contact"
 				class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
