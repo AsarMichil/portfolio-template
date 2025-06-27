@@ -12,7 +12,7 @@
 </svelte:head>
 
 <!-- Page Header -->
-<section class="border-b-2 border-stone-200 py-12 md:py-20 lg:py-24">
+<section class="border-b-2 border-black py-12 md:py-20 lg:py-24">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="max-w-3xl">
 			<h1 class="mb-4 text-2xl font-bold lowercase md:text-3xl lg:text-4xl">about page</h1>
@@ -30,7 +30,7 @@
 			<!-- Profile Image Placeholder -->
 			<div class="lg:col-span-1">
 				<div
-					class="flex aspect-square items-center justify-center border-2 border-stone-200 bg-stone-100"
+					class="flex aspect-square items-center justify-center border-2 border-black bg-stone-100"
 				>
 					<p class="text-center text-sm text-stone-800 md:text-base">
 						profile image<br />coming soon
