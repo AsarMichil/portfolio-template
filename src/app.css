@@ -1,2 +1,72 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	/* Color System */
+	--color-bright-yellow: #facc15;
+	--color-bright-yellow-light: #fef08a;
+	--color-bright-yellow-dark: #ca8a04;
+
+	--color-bright-blue: #3b82f6;
+	--color-bright-blue-light: #93c5fd;
+	--color-bright-blue-dark: #1d4ed8;
+
+	--color-bright-red: #ef4444;
+	--color-bright-red-light: #fca5a5;
+	--color-bright-red-dark: #b91c1c;
+
+	--color-bright-green: #22c55e;
+	--color-bright-green-light: #86efac;
+	--color-bright-green-dark: #15803d;
+
+	--color-bright-purple: #a855f7;
+	--color-bright-purple-light: #c4b5fd;
+	--color-bright-purple-dark: #7e22ce;
+
+	--color-bright-orange: #f97316;
+	--color-bright-orange-light: #fdba74;
+	--color-bright-orange-dark: #c2410c;
+
+	--color-primary: var(--color-bright-yellow);
+	--color-primary-light: var(--color-bright-yellow-light);
+	--color-primary-dark: var(--color-bright-yellow-dark);
+
+	/* --color-primary: var(--color-bright-yellow);
+	--color-primary-light: var(--color-bright-yellow-light);
+	--color-primary-dark: var(--color-bright-yellow-dark); */
+
+	/* Typography */
+	--font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+[data-theme='blue'] {
+	--color-primary: var(--color-bright-blue);
+	--color-primary-light: var(--color-bright-blue-light);
+	--color-primary-dark: var(--color-bright-blue-dark);
+}
+
+[data-theme='red'] {
+	--color-primary: var(--color-bright-red);
+	--color-primary-light: var(--color-bright-red-light);
+	--color-primary-dark: var(--color-bright-red-dark);
+}
+
+[data-theme='green'] {
+	--color-primary: var(--color-bright-green);
+	--color-primary-light: var(--color-bright-green-light);
+	--color-primary-dark: var(--color-bright-green-dark);
+}
+
+[data-theme='purple'] {
+	--color-primary: var(--color-bright-purple);
+	--color-primary-light: var(--color-bright-purple-light);
+	--color-primary-dark: var(--color-bright-purple-dark);
+}
+
+[data-theme='orange'] {
+	--color-primary: var(--color-bright-orange);
+	--color-primary-light: var(--color-bright-orange-light);
+	--color-primary-dark: var(--color-bright-orange-dark);
+}
