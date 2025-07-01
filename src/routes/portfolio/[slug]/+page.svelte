@@ -71,7 +71,7 @@
 							href={meta.link}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="bg-bright-yellow hover:bg-bright-yellow-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+							class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
 						>
 							view live project
 						</a>
