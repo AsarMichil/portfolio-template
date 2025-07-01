@@ -26,7 +26,7 @@ The biggest advantage of our microservices architecture wasn't technical - it wa
 
 ## Communication is Everything
 
-I ended up being one of the most vocal people in code reviews, which initially felt uncomfortable but became a real asset. I learned that good collaboration isn't about being nice - it's about meeting people where they are. Some teammates preferred detailed written feedback, others wanted quick verbal discussions. The goal was always the same: ship quality software faster.
+I ended up being one of the most vocal people in standup and code reviews, which initially felt uncomfortable but became a real asset. I learned that good collaboration is about meeting people where they are. The goal was always the same: ship quality software faster.
 
 When I pushed for modern build tooling (moving from Create React App to Vite), it succeeded because I came prepared with concrete benefits: 3x faster build times, better developer experience. Good ideas need good communication to stick.
 
