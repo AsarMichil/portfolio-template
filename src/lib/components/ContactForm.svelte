@@ -59,7 +59,7 @@
 	{#if submitted}
 		<div class="py-8 text-center">
 			<div
-				class="bg-bright-yellow inline-block px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900"
+				class="bg-primary inline-block px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900"
 			>
 				message sent successfully
 			</div>
@@ -91,7 +91,7 @@
 					bind:value={name}
 					required
 					disabled={loading}
-					class="focus:border-bright-yellow w-full border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+					class="focus:border-primary w-full border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
 					placeholder="enter your name"
 				/>
 			</div>
@@ -105,7 +105,7 @@
 					bind:value={email}
 					required
 					disabled={loading}
-					class="focus:border-bright-yellow w-full border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+					class="focus:border-primary w-full border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
 					placeholder="enter your email"
 				/>
 			</div>
@@ -119,7 +119,7 @@
 					required
 					rows="5"
 					disabled={loading}
-					class="focus:border-bright-yellow w-full resize-none border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+					class="focus:border-primary w-full resize-none border-2 border-gray-200 p-3 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
 					placeholder="tell me about your project or just say hi"
 				></textarea>
 			</div>
@@ -129,7 +129,7 @@
 				<button
 					type="submit"
 					disabled={loading}
-					class="bg-bright-yellow hover:bg-bright-yellow-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-50"
+					class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-50"
 				>
 					{#if loading}
 						<svg class="mr-2 h-4 w-4 animate-spin" viewBox="0 0 24 24">

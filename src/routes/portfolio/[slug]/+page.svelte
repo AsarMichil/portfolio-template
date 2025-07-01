@@ -24,7 +24,7 @@
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<a
 				href="/portfolio"
-				class="hover:text-bright-yellow inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
+				class="hover:text-primary inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
 			>
 				← back to portfolio
 			</a>
@@ -147,7 +147,7 @@
 			</p>
 			<a
 				href="/portfolio"
-				class="bg-bright-yellow hover:bg-bright-yellow-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-stone-800 transition-colors duration-200"
+				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-stone-800 transition-colors duration-200"
 			>
 				view all projects
 			</a>

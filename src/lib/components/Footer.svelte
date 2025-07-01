@@ -12,7 +12,7 @@
         <h3 class="font-bold lowercase text-lg mb-4">get in touch</h3>
         <div class="space-y-2">
           <p class="text-base md:text-lg text-gray-700 leading-relaxed">
-            <a href="mailto:{config.email}" class="hover:text-bright-yellow transition-colors">
+            <a href="mailto:{config.email}" class="hover:text-primary transition-colors">
               {config.email}
             </a>
           </p>
@@ -27,17 +27,17 @@
         <h3 class="font-bold lowercase text-lg mb-4">navigate</h3>
         <div class="space-y-2">
           <p>
-            <a href="/portfolio" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors">
+            <a href="/portfolio" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors">
               portfolio
             </a>
           </p>
           <p>
-            <a href="/about" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors">
+            <a href="/about" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors">
               about
             </a>
           </p>
           <p>
-            <a href="/contact" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors">
+            <a href="/contact" class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors">
               contact
             </a>
           </p>
@@ -52,7 +52,7 @@
             <p>
               <a 
                 href="https://github.com/{config.social.github}" 
-                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors"
+                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@
             <p>
               <a 
                 href="https://linkedin.com/in/{config.social.linkedin}" 
-                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors"
+                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +76,7 @@
             <p>
               <a 
                 href="https://twitter.com/{config.social.twitter}" 
-                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors"
+                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -88,7 +88,7 @@
             <p>
               <a 
                 href="https://instagram.com/{config.social.instagram}" 
-                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-bright-yellow transition-colors"
+                class="text-base md:text-lg text-gray-700 leading-relaxed hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >

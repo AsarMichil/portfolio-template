@@ -38,7 +38,7 @@
 						<div>
 							<h3 class="mb-2 text-lg font-bold lowercase">email</h3>
 							<p class="text-base leading-relaxed text-stone-800 md:text-lg">
-								<a href="mailto:{config.email}" class="hover:text-bright-yellow transition-colors">
+								<a href="mailto:{config.email}" class="hover:text-primary transition-colors">
 									{config.email}
 								</a>
 							</p>

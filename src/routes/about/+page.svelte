@@ -105,7 +105,7 @@
 		</p>
 		<a
 			href="/contact"
-			class="bg-bright-yellow hover:bg-bright-yellow-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+			class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
 		>
 			get in touch
 		</a>
