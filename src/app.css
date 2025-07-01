@@ -31,6 +31,7 @@
 	--color-primary-light: var(--color-bright-yellow-light);
 	--color-primary-dark: var(--color-bright-yellow-dark);
 
+	/* This is how you set the primary color */
 	/* --color-primary: var(--color-bright-yellow);
 	--color-primary-light: var(--color-bright-yellow-light);
 	--color-primary-dark: var(--color-bright-yellow-dark); */

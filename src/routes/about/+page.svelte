@@ -32,9 +32,7 @@
 				<div
 					class="flex aspect-square items-center justify-center border-2 border-black bg-stone-100"
 				>
-					<p class="text-center text-sm text-stone-800 md:text-base">
-						profile image<br />coming soon
-					</p>
+					<img src="/images/asar-face.JPG" alt="Asar's Face" class="h-full w-full object-cover" />
 				</div>
 			</div>
 
