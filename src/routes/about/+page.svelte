@@ -58,8 +58,6 @@
 				<h3 class="mb-2 text-sm font-bold lowercase">design</h3>
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
 					<li>figma</li>
-					<li>sketch</li>
-					<li>adobe cc</li>
 				</ul>
 			</div>
 
@@ -68,8 +66,11 @@
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
 					<li>html/css</li>
 					<li>javascript</li>
+					<li>typescript</li>
 					<li>svelte</li>
 					<li>react</li>
+					<li>angular</li>
+					<li>tailwind</li>
 				</ul>
 			</div>
 
@@ -78,7 +79,11 @@
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
 					<li>node.js</li>
 					<li>python</li>
-					<li>databases</li>
+					<li>go</li>
+					<li>postgresql</li>
+					<li>redis</li>
+					<li>rabbitmq</li>
+					<li>aws</li>
 				</ul>
 			</div>
 
@@ -87,7 +92,9 @@
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
 					<li>git</li>
 					<li>vscode</li>
-					<li>terminal</li>
+					<li>docker</li>
+					<li>jira</li>
+					<li>cursor</li>
 				</ul>
 			</div>
 		</div>
