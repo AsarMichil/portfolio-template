@@ -16,7 +16,7 @@ export const siteConfig = {
 
 	// SEO
 	siteUrl: 'https://asarmichil.com',
-	description: 'brief description of yourself',
+	description: 'Software Engineering Co-op Student studying at UBC',
 
 	// Email Form
 	resendEmail: 'resend@youexist.michils.com'
