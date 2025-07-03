@@ -52,6 +52,10 @@ export const siteConfig = {
 
 ### 3. Add Your Content
 
+#### Resume!!
+Add your resume as static/content/resume/resume.pdf
+
+
 #### About Page
 Edit `content/about.md` with your personal story:
 

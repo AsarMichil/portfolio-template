@@ -12,7 +12,7 @@
 <!-- Hero Section -->
 <section class="bg-surface border-border border-b-2 py-24 md:py-32 lg:py-40">
 	<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-		<h1 class="mb-6 text-5xl font-semibold md:text-7xl lg:text-9xl lowercase">
+		<h1 class="mb-6 text-5xl font-semibold lowercase md:text-7xl lg:text-9xl">
 			{config.name}
 		</h1>
 		<p class="text-text-secondary max-w-2xl text-xl md:text-2xl">
