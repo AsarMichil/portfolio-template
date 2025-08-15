@@ -27,9 +27,9 @@
 	--color-bright-orange-light: #fdba74;
 	--color-bright-orange-dark: #c2410c;
 
-	--color-primary: var(--color-bright-blue);
-	--color-primary-light: var(--color-bright-blue-light);
-	--color-primary-dark: var(--color-bright-blue-dark);
+	--color-primary: var(--color-bright-yellow);
+	--color-primary-light: var(--color-bright-yellow-light);
+	--color-primary-dark: var(--color-bright-yellow-dark);
 
 	/* This is how you set the primary color */
 	/* --color-primary: var(--color-bright-yellow);
