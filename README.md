@@ -2,6 +2,7 @@
 
 A SvelteKit-based portfolio template inspired by Canada's No Name brand aesthetic, designed for minimal setup and maximum impact. Users can clone, configure, and deploy with minimal technical knowledge.
 
+
 ## ✨ Features
 
 - **Minimalist brutalism** with clean, bold typography
@@ -32,10 +33,10 @@ export const siteConfig = {
   tagline: "designer and developer",
   email: "jane@example.com",
   location: "toronto, canada",
-  
+
   // Theme (yellow, blue, red, green, purple, orange)
   primaryColor: "yellow",
-  
+
   // Social Links (optional)
   social: {
     github: "janedoe",
@@ -43,7 +44,7 @@ export const siteConfig = {
     twitter: "janedoe",
     instagram: "janedoe"
   },
-  
+
   // SEO
   siteUrl: "https://janedoe.com",
   description: "designer and developer creating meaningful digital experiences"
@@ -76,7 +77,7 @@ date: 2024-01-15
 tags: [web design, branding, ui/ux]
 featured: true
 thumbnail: project-hero.jpg
-images: 
+images:
   - project-detail-1.jpg
   - project-detail-2.jpg
 link: https://project-url.com
@@ -187,7 +188,7 @@ Add your own utility classes in `src/app.css`:
 .section-xl { @apply py-24 md:py-32 lg:py-40; }
 
 /* Custom components */
-.my-custom-card { 
+.my-custom-card {
   @apply bg-white border-2 border-gray-200 p-6 hover:border-primary;
 }
 ```
