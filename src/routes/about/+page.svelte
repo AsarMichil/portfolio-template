@@ -28,11 +28,15 @@
 	<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3">
 			<!-- Profile Image Placeholder -->
-			<div class="lg:col-span-1">
+			<div class="lg:col-span-1 sm:w-full lg:w-full max-w-80">
 				<div
-					class="flex aspect-square items-center justify-center border-2 border-black bg-stone-100"
+					class="relative flex aspect-square items-center justify-center overflow-visible border-2 border-black bg-stone-100"
 				>
-					<img src="/images/asar-face.JPG" alt="Asar's Face" class="h-full w-full object-cover" />
+					<img
+						src="/images/asar-face.png"
+						alt="Asar's Face"
+						class="absolute bottom-0 h-[120%] w-full object-cover object-bottom"
+					/>
 				</div>
 			</div>
 
