@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { getSiteConfig } from '$lib/utils/content';
 
 	const config = getSiteConfig();
@@ -57,48 +56,57 @@
 			what i work with
 		</h2>
 
-		<div class="grid grid-cols-2 gap-6 md:grid-cols-4">
-			<div class="text-center">
-				<h3 class="mb-2 text-sm font-bold lowercase">design</h3>
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+			<div>
+				<h3 class="mb-2 text-sm font-bold lowercase">languages</h3>
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
-					<li>figma</li>
-				</ul>
-			</div>
-
-			<div class="text-center">
-				<h3 class="mb-2 text-sm font-bold lowercase">frontend</h3>
-				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
-					<li>html/css</li>
-					<li>javascript</li>
 					<li>typescript</li>
-					<li>svelte</li>
-					<li>react</li>
-					<li>angular</li>
-					<li>tailwind</li>
+					<li>javascript</li>
+					<li>swift</li>
+					<li>python</li>
+					<li>java</li>
+					<li>c++</li>
+					<li>go</li>
+					<li>c</li>
+					<li>sql</li>
 				</ul>
 			</div>
 
-			<div class="text-center">
-				<h3 class="mb-2 text-sm font-bold lowercase">backend</h3>
+			<div>
+				<h3 class="mb-2 text-sm font-bold lowercase">frameworks</h3>
 				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
+					<li>react</li>
+					<li>next.js</li>
+					<li>sveltekit</li>
 					<li>node.js</li>
-					<li>python</li>
-					<li>go</li>
+					<li>express.js</li>
+					<li>fastapi</li>
+					<li>swiftui</li>
+					<li>uikit</li>
+					<li>tailwind css</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="mb-2 text-sm font-bold lowercase">testing and dev tools</h3>
+				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
+					<li>appium</li>
+					<li>selenium</li>
+					<li>git</li>
+					<li>unix/linux</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="mb-2 text-sm font-bold lowercase">infrastructure</h3>
+				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
 					<li>postgresql</li>
 					<li>redis</li>
 					<li>rabbitmq</li>
-					<li>aws</li>
-				</ul>
-			</div>
-
-			<div class="text-center">
-				<h3 class="mb-2 text-sm font-bold lowercase">tools</h3>
-				<ul class="space-y-1 text-sm text-stone-800 md:text-base">
-					<li>git</li>
-					<li>vscode</li>
 					<li>docker</li>
-					<li>jira</li>
-					<li>cursor</li>
+					<li>aws</li>
+					<li>jenkins</li>
+					<li>ci/cd</li>
 				</ul>
 			</div>
 		</div>

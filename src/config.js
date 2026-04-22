@@ -1,7 +1,7 @@
 export const siteConfig = {
 	// Personal Information
 	name: 'Asar Zuluev',
-	tagline: 'Software Engineering Co-op Student',
+	tagline: 'UBC CS · Incoming Intern @ Amazon',
 	email: 'asar@asarmichil.com',
 	location: 'Vancouver, BC',
 
@@ -16,7 +16,7 @@ export const siteConfig = {
 
 	// SEO
 	siteUrl: 'https://asarmichil.com',
-	description: 'Software Engineering Co-op Student studying at UBC',
+	description: 'Incoming @ Amazon, Software Engineering Co-op Student studying at UBC',
 
 	// Email Form
 	resendEmail: 'resend@youexist.michils.com'

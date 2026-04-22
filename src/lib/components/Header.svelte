@@ -44,8 +44,7 @@
 					contact
 				</a>
 				<a
-					href="/resume/resume.pdf"
-					download="resume.pdf"
+					href="/resume"
 					class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
 				>
 					view my resume!
@@ -111,8 +110,7 @@
 				</div>
 				<div>
 					<a
-						href="/resume/resume.pdf"
-						download="resume.pdf"
+						href="/resume"
 						class="nav-link rounded-md px-2 py-1 text-lg transition-colors duration-200 hover:bg-black hover:text-white"
 					>
 						view my resume!

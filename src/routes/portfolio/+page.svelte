@@ -32,7 +32,7 @@
 			</div>
 		{:else}
 			<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 xl:gap-10">
-				{#each projects as project}
+				{#each projects as project (project.title)}
 					<ProjectCard {project} />
 				{/each}
 			</div>
