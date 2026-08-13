@@ -10,7 +10,7 @@
 	<!-- Wordmark header -->
 	<header class="border-b border-neutral-200 bg-neutral-50">
 		<div class="mx-auto flex max-w-3xl items-center justify-between px-6 py-5">
-			<a href="/pergram" class="text-lg font-semibold tracking-tight">PerGram Go</a>
+			<a href="/pergram" class="font-mochiy text-lg tracking-tight">PerGram Go</a>
 			<nav class="flex items-center gap-6 text-sm text-neutral-500">
 				<a href="/pergram/privacy-policy" class="transition-colors hover:text-black">Privacy</a>
 			</nav>
@@ -33,7 +33,7 @@
 					>Support</a
 				>
 			</nav>
-			<p class="text-neutral-400">© {year} Asar-Michil Zuluev</p>
+			<p class="font-mochiy text-neutral-400">© {year} Asar-Michil Zuluev</p>
 		</div>
 	</footer>
 </div>

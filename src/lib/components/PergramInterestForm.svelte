@@ -43,15 +43,15 @@
 	}
 </script>
 
-<section class="border-t border-neutral-200 bg-neutral-50">
-	<div class="mx-auto max-w-3xl px-6 py-12">
-		<h2 class="text-2xl font-semibold tracking-tight md:text-3xl">Interested?</h2>
-		<p class="mt-4 max-w-xl leading-relaxed text-neutral-600">
+<section id="early-access" class="scroll-mt-16 border-t border-neutral-200 bg-neutral-50">
+	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
+		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">Interested?</h2>
+		<p class="mt-4 max-w-xl text-lg leading-snug text-neutral-700">
 			Put down your email for early access!
 		</p>
 
 		{#if submitted}
-			<p class="mt-6 text-sm font-medium text-emerald-600">
+			<p class="mt-6 text-sm font-semibold text-emerald-600">
 				You're on the list — I'll be in touch when PerGram is ready.
 			</p>
 		{:else}
@@ -66,12 +66,12 @@
 					disabled={loading}
 					autocomplete="email"
 					placeholder="you@example.com"
-					class="min-w-0 flex-1 border-b border-neutral-300 bg-transparent py-2 text-base transition-colors placeholder:text-neutral-400 focus:border-black focus:outline-none disabled:opacity-50"
+					class="min-w-0 flex-1 border-b border-neutral-300 bg-transparent py-3 text-base transition-colors placeholder:text-neutral-400 focus:border-black focus:outline-none disabled:opacity-50"
 				/>
 				<button
 					type="submit"
 					disabled={loading}
-					class="shrink-0 bg-black px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50"
+					class="shrink-0 rounded-lg bg-black px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50"
 				>
 					{loading ? 'Sending…' : 'Submit'}
 				</button>

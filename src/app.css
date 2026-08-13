@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
@@ -40,6 +41,8 @@
 	--font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	--font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	--font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-mochiy: 'Mochiy Pop One', sans-serif;
+	--font-mono: 'Space Mono', monospace;
 }
 
 [data-theme='blue'] {
