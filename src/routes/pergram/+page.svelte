@@ -1,3 +1,7 @@
+<script lang="ts">
+	import PergramInterestForm from '$lib/components/PergramInterestForm.svelte';
+</script>
+
 <svelte:head>
 	<title>PerGram Go</title>
 	<meta
@@ -99,3 +103,6 @@
 		</a>
 	</div>
 </section>
+
+<!-- Early access signup -->
+<PergramInterestForm />
