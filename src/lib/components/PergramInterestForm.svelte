@@ -43,16 +43,16 @@
 	}
 </script>
 
-<section id="early-access" class="scroll-mt-16 border-t border-neutral-200 bg-neutral-50">
+<section id="early-access" class="scroll-mt-16 bg-white">
 	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
-		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">Interested?</h2>
-		<p class="mt-4 max-w-xl text-lg leading-snug text-neutral-700">
-			Put down your email for early access!
+		<h2 class="font-mochiy text-2xl tracking-tight md:text-3xl">Get early access!</h2>
+		<p class="mt-4 max-w-xl text-lg leading-snug text-stone-700">
+			Put down your email for early access.
 		</p>
 
 		{#if submitted}
 			<p class="mt-6 text-sm font-semibold text-emerald-600">
-				You're on the list — I'll be in touch when PerGram is ready.
+				You're on the list. I'll be in touch when PerGram is ready.
 			</p>
 		{:else}
 			<form onsubmit={handleSubmit} class="mt-6 flex max-w-md flex-wrap items-start gap-3">
@@ -65,15 +65,16 @@
 					required
 					disabled={loading}
 					autocomplete="email"
+					aria-label="Email address"
 					placeholder="you@example.com"
-					class="min-w-0 flex-1 border-b border-neutral-300 bg-transparent py-3 text-base transition-colors placeholder:text-neutral-400 focus:border-black focus:outline-none disabled:opacity-50"
+					class="min-w-0 flex-1 border-b border-stone-300 bg-transparent py-3 text-base transition-colors placeholder:text-stone-400 focus:border-stone-900 focus:outline-none disabled:opacity-50"
 				/>
 				<button
 					type="submit"
 					disabled={loading}
-					class="shrink-0 rounded-lg bg-black px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-neutral-700 disabled:cursor-not-allowed disabled:opacity-50"
+					class="shrink-0 rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700 disabled:cursor-not-allowed disabled:opacity-50"
 				>
-					{loading ? 'Sending…' : 'Submit'}
+					{loading ? 'Sending…' : 'Notify me'}
 				</button>
 			</form>
 
