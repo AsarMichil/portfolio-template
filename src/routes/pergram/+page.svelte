@@ -1,5 +1,5 @@
 <script lang="ts">
-	import PergramInterestForm from '$lib/components/PergramInterestForm.svelte';
+	const APP_STORE_URL = 'https://apps.apple.com/ca/app/pergram-go/id6799463251';
 
 	const screens = [
 		{
@@ -21,15 +21,15 @@
 </script>
 
 <svelte:head>
-	<title>PerGram Go — a quick check on grocery prices</title>
+	<title>PerGram Go: a quick check on grocery prices</title>
 	<meta
 		name="description"
-		content="PerGram Go is a unit-price sanity checker for Canadian grocery shopping. Type or scan a shelf price, get an instant verdict: good, meh, or bad. No account, no network, all on your device."
+		content="PerGram Go is a unit-price sanity checker for Canadian grocery shopping, out now on the App Store in Canada. Type or scan a shelf price, get an instant verdict: good, meh, or bad. No account, no network, all on your device."
 	/>
-	<meta property="og:title" content="PerGram Go — a quick check on grocery prices" />
+	<meta property="og:title" content="PerGram Go: a quick check on grocery prices" />
 	<meta
 		property="og:description"
-		content="Type or scan a shelf price and PerGram Go tells you whether it beats the price you set. On your device, offline, no account."
+		content="Type or scan a shelf price and PerGram Go tells you whether it beats the price you set. Out now on the App Store in Canada. On your device, offline, no account."
 	/>
 	<meta property="og:image" content="/pergram/icon-256.png" />
 	<meta name="twitter:card" content="summary" />
@@ -49,13 +49,15 @@
 
 			<div class="mt-10">
 				<p class="text-xs font-semibold tracking-widest text-stone-400 uppercase">
-					Coming to iPhone
+					Out now on iPhone, in Canada
 				</p>
 				<a
-					href="#early-access"
+					href={APP_STORE_URL}
+					target="_blank"
+					rel="noopener noreferrer"
 					class="mt-4 inline-block rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
 				>
-					Get early access
+					Download on the App Store
 				</a>
 			</div>
 		</div>
@@ -218,5 +220,20 @@
 	</div>
 </section>
 
-<!-- Early access signup -->
-<PergramInterestForm />
+<!-- Download CTA -->
+<section class="bg-white">
+	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
+		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">Get PerGram Go</h2>
+		<p class="mt-4 max-w-xl text-lg leading-snug text-stone-700">
+			Available now on the App Store in Canada.
+		</p>
+		<a
+			href={APP_STORE_URL}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="mt-6 inline-block rounded-xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+		>
+			Download on the App Store
+		</a>
+	</div>
+</section>
