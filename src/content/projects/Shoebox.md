@@ -28,7 +28,7 @@ The hard part isn't getting agents to write code. It's getting code you can trus
 - **Prove it on real files.** Every phase ends with a scripted measurement, not "it compiles."
 - **Isolate parallel work.** Each agent builds in its own git worktree with its own app data.
 
-The engineering principles in the project instructions are adapted from Lauren Tan's pstack: subtract before adding, settle data structures first, fix root causes, and build a script or lint before doing work by hand.
+The engineering principles in the project instructions are adapted from Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack): subtract before adding, settle data structures first, fix root causes, and build a script or lint before doing work by hand.
 
 ## Where It Stands
 
