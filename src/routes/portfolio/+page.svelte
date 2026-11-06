@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
-	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import { getSiteConfig } from '#lib/utils/content.ts';
+	import ProjectCard from '#lib/components/ProjectCard.svelte';
 
 	const config = getSiteConfig();
 
@@ -51,7 +51,7 @@
 		</p>
 		<a
 			href="/contact"
-			class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+			class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors duration-200"
 		>
 			let's talk
 		</a>

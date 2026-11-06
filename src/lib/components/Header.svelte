@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/state';
-	import { getSiteConfig } from '$lib/utils/content';
+	import { getSiteConfig } from '#lib/utils/content.ts';
 
 	const config = getSiteConfig();
 	let isMenuOpen = $state(false);
@@ -12,7 +12,7 @@
 			<!-- Logo/Name -->
 			<a
 				href="/"
-				class="rounded-md px-2 py-1 text-xl font-bold lowercase text-gray-900 transition-colors hover:bg-black hover:text-white"
+				class="rounded-md px-2 py-1 text-xl font-bold text-gray-900 lowercase transition-colors hover:bg-black hover:text-white"
 			>
 				{config.name}
 			</a>
@@ -45,7 +45,7 @@
 				</a>
 				<a
 					href="/resume"
-					class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
+					class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold tracking-wide uppercase transition-colors duration-200 hover:text-white"
 				>
 					view my resume!
 				</a>
@@ -73,7 +73,7 @@
 
 		<!-- Mobile Menu -->
 		<div
-			class="mt-4 hidden border-t-2 border-black pb-4 pt-4 md:hidden"
+			class="mt-4 hidden border-t-2 border-black pt-4 pb-4 md:hidden"
 			id="mobile-menu"
 			class:hidden={!isMenuOpen}
 		>

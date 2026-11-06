@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
+	import { getSiteConfig } from '#lib/utils/content.ts';
 
 	const config = getSiteConfig();
 
@@ -24,7 +24,7 @@
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<a
 				href="/portfolio"
-				class="hover:text-primary inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors"
+				class="hover:text-primary inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors"
 			>
 				← back to portfolio
 			</a>
@@ -54,7 +54,7 @@
 							<div class="flex flex-wrap gap-2">
 								{#each meta.tags as tag}
 									<span
-										class="rounded-md bg-stone-100 px-2 py-1 text-xs uppercase tracking-wide text-stone-800"
+										class="rounded-md bg-stone-100 px-2 py-1 text-xs tracking-wide text-stone-800 uppercase"
 									>
 										{tag}
 									</span>
@@ -71,7 +71,7 @@
 							href={meta.link}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
+							class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold tracking-wide uppercase transition-colors duration-200 hover:text-white"
 						>
 							view live project
 						</a>
@@ -81,14 +81,14 @@
 							href={meta.github}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="inline-flex items-center border-2 border-gray-900 px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200 hover:bg-gray-900 hover:text-white"
+							class="inline-flex items-center border-2 border-gray-900 px-6 py-3 text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors duration-200 hover:bg-gray-900 hover:text-white"
 						>
 							view code
 						</a>
 					{/if}
 				</div>
 			</div>
-		</div>	
+		</div>
 	</section>
 
 	<!-- Hero Image -->
@@ -147,7 +147,7 @@
 			</p>
 			<a
 				href="/portfolio"
-				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-stone-800 transition-colors duration-200"
+				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-stone-800 uppercase transition-colors duration-200"
 			>
 				view all projects
 			</a>

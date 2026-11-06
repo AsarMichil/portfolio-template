@@ -3,7 +3,7 @@
 </script>
 
 <article
-	class="overflow-hidden border-2 border-stone-500 rounded-lg bg-white p-0 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+	class="overflow-hidden rounded-lg border-2 border-stone-500 bg-white p-0 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
 >
 	<!-- Project Image -->
 	<div class="aspect-[4/3] overflow-hidden bg-gray-100">
@@ -31,7 +31,7 @@
 			<div class="mb-4 flex flex-wrap gap-2">
 				{#each project.tags as tag}
 					<span
-						class="font-body bg-gray-100 px-2 py-1 text-xs uppercase tracking-wide text-gray-700"
+						class="font-body bg-gray-100 px-2 py-1 text-xs tracking-wide text-gray-700 uppercase"
 					>
 						{tag}
 					</span>
@@ -43,7 +43,7 @@
 		<div class="flex items-center justify-between">
 			<a
 				href="/portfolio/{project.slug}"
-				class="hover:text-primary text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors"
+				class="hover:text-primary text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors"
 			>
 				view case study →
 			</a>
@@ -54,7 +54,7 @@
 						href={project.link}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="hover:text-primary text-xs uppercase tracking-wide text-gray-600 transition-colors"
+						class="hover:text-primary text-xs tracking-wide text-gray-600 uppercase transition-colors"
 						aria-label="View live project"
 					>
 						live
@@ -65,7 +65,7 @@
 						href={project.github}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="hover:text-primary text-xs uppercase tracking-wide text-gray-600 transition-colors"
+						class="hover:text-primary text-xs tracking-wide text-gray-600 uppercase transition-colors"
 						aria-label="View project code"
 					>
 						code

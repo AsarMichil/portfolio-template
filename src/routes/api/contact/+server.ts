@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
-import { getSiteConfig } from '$lib/utils/content';
-import { RESEND_API_KEY } from '$env/static/private';
+import { getSiteConfig } from '#lib/utils/content.ts';
+import { RESEND_API_KEY } from '$app/env/private';
 
 const toEmail = getSiteConfig().email;
 const fromEmail = getSiteConfig().resendEmail;

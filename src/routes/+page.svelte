@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
+	import { getSiteConfig } from '#lib/utils/content.ts';
 
 	const config = getSiteConfig();
 </script>
@@ -23,13 +23,13 @@
 		<div class="mt-8 flex flex-wrap gap-4">
 			<a
 				href="/contact"
-				class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold uppercase tracking-wide transition-colors duration-200 hover:text-white"
+				class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold tracking-wide uppercase transition-colors duration-200 hover:text-white"
 			>
 				get in touch
 			</a>
 			<a
 				href="/portfolio"
-				class="bg-primary inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200 hover:bg-black hover:text-white"
+				class="bg-primary inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors duration-200 hover:bg-black hover:text-white"
 			>
 				view my work
 			</a>
@@ -51,7 +51,7 @@
 				</p>
 				<a
 					href="/portfolio"
-					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
+					class="inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors hover:text-white"
 				>
 					view projects →
 				</a>
@@ -67,7 +67,7 @@
 				</p>
 				<a
 					href="/about"
-					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
+					class="inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors hover:text-white"
 				>
 					learn more →
 				</a>
@@ -81,7 +81,7 @@
 				<p class="text-text-secondary mb-6 text-base leading-relaxed md:text-lg">by saying hello</p>
 				<a
 					href="/contact"
-					class="inline-flex items-center text-sm font-bold uppercase tracking-wide transition-colors hover:text-white"
+					class="inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors hover:text-white"
 				>
 					say hello →
 				</a>
@@ -103,7 +103,7 @@
 		<div class="text-center">
 			<a
 				href="/portfolio"
-				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors duration-200"
 			>
 				see all projects
 			</a>

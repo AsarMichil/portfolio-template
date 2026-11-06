@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
+	import { getSiteConfig } from '#lib/utils/content.ts';
 
 	const config = getSiteConfig();
 	const { data } = $props();
@@ -27,7 +27,7 @@
 	<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-12 lg:grid-cols-3">
 			<!-- Profile Image Placeholder -->
-			<div class="lg:col-span-1 sm:w-full lg:w-full max-w-80">
+			<div class="max-w-80 sm:w-full lg:col-span-1 lg:w-full">
 				<div
 					class="relative flex aspect-square items-center justify-center overflow-visible border-2 border-black bg-stone-100"
 				>
@@ -122,7 +122,7 @@
 		</p>
 		<a
 			href="/contact"
-			class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold uppercase tracking-wide text-gray-900 transition-colors duration-200"
+			class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors duration-200"
 		>
 			get in touch
 		</a>

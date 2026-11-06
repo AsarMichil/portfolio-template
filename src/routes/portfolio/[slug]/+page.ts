@@ -11,6 +11,9 @@ export async function load({ params }) {
 		};
 	} catch (e) {
 		console.error(e);
-		error(404, `Could not find ${params.slug}, ${e instanceof Error ? e.message : 'Unknown error'}`);
+		error(
+			404,
+			`Could not find ${params.slug}, ${e instanceof Error ? e.message : 'Unknown error'}`
+		);
 	}
 }

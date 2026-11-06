@@ -1,12 +1,12 @@
-import { defineConfig } from '@tailwindcss/vite'
+import { defineConfig } from '@tailwindcss/vite';
 
 export default defineConfig({
-  theme: {
-    extend: {
-      spacing: {
-        '18': '4.5rem',
-        '88': '22rem',
-      }
-    }
-  }
-}) 
+	theme: {
+		extend: {
+			spacing: {
+				18: '4.5rem',
+				88: '22rem'
+			}
+		}
+	}
+});

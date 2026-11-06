@@ -1,5 +1,4 @@
-import { json } from '@sveltejs/kit';
-import type { Project } from '$lib/types';
+import type { Project } from '#lib/types/index.ts';
 
 async function getProjects() {
 	let projects: Project[] = [];
@@ -26,5 +25,5 @@ async function getProjects() {
 
 export async function GET() {
 	const projects = await getProjects();
-	return json(projects);
+	return Response.json(projects);
 }

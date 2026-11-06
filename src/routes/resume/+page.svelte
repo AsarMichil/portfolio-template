@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
+	import { getSiteConfig } from '#lib/utils/content.ts';
 
 	const config = getSiteConfig();
 </script>
@@ -15,8 +15,9 @@
 		<p class="text-left text-xl md:text-3xl">
 			for {config.name}
 		</p>
-		<p class="mb-10 text-md md:text-xl">
-			{config.tagline}</p>
+		<p class="text-md mb-10 md:text-xl">
+			{config.tagline}
+		</p>
 		<a
 			href="/resume/resume.pdf"
 			download="Asar_Zuluev_Resume.pdf"

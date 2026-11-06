@@ -154,10 +154,10 @@
 	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
 		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">Shop with a list</h2>
 		<p class="mt-4 max-w-xl text-lg leading-snug text-stone-700">
-			Make a list sorted by aisle, with notes like "6" or "ripe ones". Skip what you don't need
-			this week; it stays on the list for next time. As you shop you get a running total, and
-			things cross themselves off as they go in the cart. At the end you see what you spent, how it
-			rated, and the bad buys by name.
+			Make a list sorted by aisle, with notes like "6" or "ripe ones". Skip what you don't need this
+			week; it stays on the list for next time. As you shop you get a running total, and things
+			cross themselves off as they go in the cart. At the end you see what you spent, how it rated,
+			and the bad buys by name.
 		</p>
 	</div>
 </section>

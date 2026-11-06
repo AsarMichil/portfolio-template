@@ -2,9 +2,9 @@
 	import '../app.css';
 	import { onMount } from 'svelte';
 	import { page } from '$app/state';
-	import { applyTheme } from '$lib/utils/content';
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import { applyTheme } from '#lib/utils/content.ts';
+	import Header from '#lib/components/Header.svelte';
+	import Footer from '#lib/components/Footer.svelte';
 
 	let { children } = $props();
 
@@ -24,7 +24,7 @@
 {#if isPergram}
 	{@render children()}
 {:else}
-	<div class="min-h-screen bg-primary flex flex-col">
+	<div class="bg-primary flex min-h-screen flex-col">
 		<Header />
 
 		<main class="flex-grow">

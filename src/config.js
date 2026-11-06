@@ -11,7 +11,7 @@ export const siteConfig = {
 	// Social Links (optional)
 	social: {
 		github: 'asarmichil',
-		linkedin: 'asarmichil',
+		linkedin: 'asarmichil'
 	},
 
 	// SEO

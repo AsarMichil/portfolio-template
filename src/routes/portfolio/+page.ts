@@ -1,4 +1,4 @@
-import type { Project } from '$lib/types';
+import type { Project } from '#lib/types/index.ts';
 
 export async function load({ fetch }) {
 	const response = await fetch('/api/projects');

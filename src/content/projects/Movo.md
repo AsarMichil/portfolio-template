@@ -13,6 +13,7 @@ link: https://movo-blush.vercel.app
 github: https://github.com/AsarMichil/movo
 published: true
 ---
+
 ## Overview
 
 Movo helps Vancouver residents decide between car-share services and personal vehicles by calculating real trip costs. Built with SvelteKit and Apple MapKit JS, it factors in driving time, distance, parking, and service-specific rules like home zone requirements.

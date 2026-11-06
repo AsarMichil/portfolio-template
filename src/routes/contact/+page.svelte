@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { getSiteConfig } from '$lib/utils/content';
-	import ContactForm from '$lib/components/ContactForm.svelte';
+	import { getSiteConfig } from '#lib/utils/content.ts';
+	import ContactForm from '#lib/components/ContactForm.svelte';
 
 	const config = getSiteConfig();
 </script>

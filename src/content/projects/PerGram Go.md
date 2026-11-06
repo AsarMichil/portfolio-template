@@ -13,6 +13,7 @@ link: https://asarmichil.com/pergram
 github: https://github.com/AsarMichil/pergram
 published: true
 ---
+
 ## Overview
 
 Despite my brief stint as a math major, I do not want to do division in the meat aisle. PerGram Go puts any shelf price into one unit and checks it against the price you decided was good. I built it solo, and it's live on the Canadian App Store.
