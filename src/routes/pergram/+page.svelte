@@ -110,8 +110,8 @@
 				<h3 class="text-lg font-medium">Set your good price</h3>
 				<p class="mt-1 max-w-xl text-lg leading-snug text-stone-700">
 					Pick something you buy often and decide what a good deal looks like. Bananas under
-					$1.80/kg, say. The app ships with a list of common groceries and a starting price for
-					each, so you are editing a number rather than inventing one.
+					$1.80/kg, say. You can set it right from a check, or use what you paid at the end of a
+					trip.
 				</p>
 			</div>
 		</div>
@@ -149,6 +149,19 @@
 	</div>
 </section>
 
+<!-- Lists and shopping -->
+<section class="bg-white">
+	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
+		<h2 class="text-2xl font-bold tracking-tight md:text-3xl">Shop with a list</h2>
+		<p class="mt-4 max-w-xl text-lg leading-snug text-stone-700">
+			Make a list sorted by aisle, with notes like "6" or "ripe ones". Skip what you don't need
+			this week; it stays on the list for next time. As you shop you get a running total, and
+			things cross themselves off as they go in the cart. At the end you see what you spent, how it
+			rated, and the bad buys by name.
+		</p>
+	</div>
+</section>
+
 <!-- Details -->
 <section>
 	<div class="mx-auto max-w-3xl px-6 py-16 md:py-24">
@@ -157,8 +170,7 @@
 			<div>
 				<h3 class="text-lg font-medium">Both official languages</h3>
 				<p class="mt-1 text-lg leading-snug text-stone-700">
-					Canadian shelf tags are bilingual by law, so the reader handles the French wording
-					alongside the English.
+					Lots of Canadian shelf tags are in English and French, so the reader handles both.
 				</p>
 			</div>
 			<div>

@@ -1,6 +1,6 @@
 # About Me
 
-I'm a 5th year Computer Science student at UBC in the co-op program, originally from Toronto but now enjoying life in Vancouver. I'm passionate about building software that *feels* nice to use - whether that's a smooth web interface or robust backend systems that just work.
+I'm a final year Computer Science student at UBC, originally from Toronto but now enjoying life in Vancouver. I'm passionate about building software that *feels* nice to use - whether that's a smooth web interface or robust backend systems that just work.
 
 When I'm not on my laptop, you'll find me biking around the city, exploring new coffee shops, or going to concerts. I'm constantly amazed by how diverse Toronto and Vancouver's music scenes are, from underground electronic to indie rock to everything in between.
 

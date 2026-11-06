@@ -4,9 +4,9 @@ description: A web app that compares Evo, Modo, and personal vehicle costs for t
 date: 2025-12-15
 tags: [svelte, typescript, mapkit, web-app]
 featured: true
-thumbnail: movo-map-dark.png
+thumbnail: movo-map-dark.jpg
 images:
-  - movo-map-dark.png
+  - movo-map-dark.jpg
   - movo-mobile-dark.jpeg
   - movo-mobile-web-light.jpeg
 link: https://movo-blush.vercel.app
