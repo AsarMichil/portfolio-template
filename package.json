@@ -40,8 +40,7 @@
 		"vite-plugin-devtools-json": "^0.2.0"
 	},
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^6",
-		"resend": "^4.6.0"
+		"@sveltejs/adapter-vercel": "^6"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.ts",

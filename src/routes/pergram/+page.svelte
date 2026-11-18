@@ -31,7 +31,9 @@
 		property="og:description"
 		content="Type or scan a shelf price and PerGram Go tells you whether it beats the price you set. Out now on the App Store in Canada. On your device, offline, no account."
 	/>
-	<meta property="og:image" content="/pergram/icon-256.png" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://asarmichil.com/pergram" />
+	<meta property="og:image" content="https://asarmichil.com/pergram/icon-256.png" />
 	<meta name="twitter:card" content="summary" />
 </svelte:head>
 

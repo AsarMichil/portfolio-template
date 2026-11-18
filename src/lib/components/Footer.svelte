@@ -12,9 +12,7 @@
 				<h3 class="mb-4 text-lg font-bold lowercase">get in touch</h3>
 				<div class="space-y-2">
 					<p class="text-base leading-relaxed text-gray-700 md:text-lg">
-						<a href="mailto:{config.email}" class="hover:text-primary transition-colors">
-							{config.email}
-						</a>
+						{config.email.replace('@', ' [at] ')}
 					</p>
 					{#if config.location}
 						<p class="text-sm text-gray-600 md:text-base">{config.location}</p>
@@ -29,7 +27,7 @@
 					<p>
 						<a
 							href="/portfolio"
-							class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+							class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 						>
 							portfolio
 						</a>
@@ -37,7 +35,7 @@
 					<p>
 						<a
 							href="/about"
-							class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+							class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 						>
 							about
 						</a>
@@ -45,7 +43,7 @@
 					<p>
 						<a
 							href="/contact"
-							class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+							class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 						>
 							contact
 						</a>
@@ -61,7 +59,7 @@
 						<p>
 							<a
 								href="https://github.com/{config.social.github}"
-								class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+								class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -73,7 +71,7 @@
 						<p>
 							<a
 								href="https://linkedin.com/in/{config.social.linkedin}"
-								class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+								class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -85,7 +83,7 @@
 						<p>
 							<a
 								href="https://twitter.com/{config.social.twitter}"
-								class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+								class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -97,7 +95,7 @@
 						<p>
 							<a
 								href="https://instagram.com/{config.social.instagram}"
-								class="hover:text-primary text-base leading-relaxed text-gray-700 transition-colors md:text-lg"
+								class="text-base leading-relaxed text-gray-700 transition-colors hover:underline md:text-lg"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

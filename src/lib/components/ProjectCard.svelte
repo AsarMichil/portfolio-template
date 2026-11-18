@@ -19,7 +19,7 @@
 	<div class="p-6">
 		<div class="mb-3">
 			<h3 class="mb-2 text-xl font-bold lowercase md:text-2xl">
-				<a href="/portfolio/{project.slug}" class="hover:text-primary transition-colors">
+				<a href="/portfolio/{project.slug}" class="hover:underline">
 					{project.title}
 				</a>
 			</h3>
@@ -43,9 +43,9 @@
 		<div class="flex items-center justify-between">
 			<a
 				href="/portfolio/{project.slug}"
-				class="hover:text-primary text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors"
+				class="text-sm font-bold tracking-wide text-gray-900 uppercase transition-colors hover:underline"
 			>
-				view case study →
+				view project →
 			</a>
 
 			<div class="flex items-center space-x-3">
@@ -54,7 +54,7 @@
 						href={project.link}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="hover:text-primary text-xs tracking-wide text-gray-600 uppercase transition-colors"
+						class="text-xs tracking-wide text-gray-600 uppercase transition-colors hover:underline"
 						aria-label="View live project"
 					>
 						live
@@ -65,7 +65,7 @@
 						href={project.github}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="hover:text-primary text-xs tracking-wide text-gray-600 uppercase transition-colors"
+						class="text-xs tracking-wide text-gray-600 uppercase transition-colors hover:underline"
 						aria-label="View project code"
 					>
 						code

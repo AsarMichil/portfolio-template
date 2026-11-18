@@ -1,22 +1,19 @@
 <script lang="ts">
 	import { getSiteConfig } from '#lib/utils/content.ts';
+	import Seo from '#lib/components/Seo.svelte';
 
 	const config = getSiteConfig();
 
 	const { data } = $props();
 	const content = $derived(data.content);
 	const meta = $derived(data.meta);
-	$inspect(data);
 </script>
 
-<svelte:head>
-	{#if meta}
-		<title>{meta.title} - {config.name}</title>
-		<meta name="description" content={meta.description} />
-	{:else}
-		<title>Project - {config.name}</title>
-	{/if}
-</svelte:head>
+<Seo
+	title="{meta.title} - {config.name}"
+	description={meta.description}
+	image={meta.thumbnail ? `/content/images/projects/${meta.thumbnail}` : undefined}
+/>
 
 {#if content}
 	<!-- Back Navigation -->
@@ -24,7 +21,7 @@
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<a
 				href="/portfolio"
-				class="hover:text-primary inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors"
+				class="inline-flex items-center text-sm font-bold tracking-wide uppercase transition-colors hover:underline"
 			>
 				← back to portfolio
 			</a>
@@ -35,8 +32,7 @@
 	<section class="border-b-2 border-black py-12 md:py-20 lg:py-24">
 		<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 			<div class="max-w-4xl">
-				<h1 class="mb-2 text-2xl font-bold lowercase md:text-3xl lg:text-4xl">{meta.title}</h1>
-				<p class="mb-6 text-xl text-stone-800 md:text-2xl">case study</p>
+				<h1 class="mb-6 text-2xl font-bold lowercase md:text-3xl lg:text-4xl">{meta.title}</h1>
 				<p class="mb-8 text-base leading-relaxed text-stone-800 md:text-lg">{meta.description}</p>
 
 				<!-- Project Meta -->
@@ -147,7 +143,7 @@
 			</p>
 			<a
 				href="/portfolio"
-				class="bg-primary hover:bg-primary-dark inline-flex items-center px-6 py-3 text-sm font-bold tracking-wide text-stone-800 uppercase transition-colors duration-200"
+				class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold tracking-wide uppercase transition-colors duration-200 hover:text-white"
 			>
 				view all projects
 			</a>

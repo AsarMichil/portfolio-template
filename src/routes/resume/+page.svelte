@@ -1,13 +1,11 @@
 <script lang="ts">
 	import { getSiteConfig } from '#lib/utils/content.ts';
+	import Seo from '#lib/components/Seo.svelte';
 
 	const config = getSiteConfig();
 </script>
 
-<svelte:head>
-	<title>Resume - {config.name}</title>
-	<meta name="description" content="Download {config.name}'s resume" />
-</svelte:head>
+<Seo title="Resume - {config.name}" description="Download {config.name}'s resume" />
 
 <section class="flex flex-col items-center justify-center py-24 md:py-32 lg:py-40">
 	<div class="px-4">

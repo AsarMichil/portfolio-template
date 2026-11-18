@@ -1,0 +1,7 @@
+import type { Project } from '#lib/types/index.ts';
+
+export async function load({ fetch }) {
+	const response = await fetch('/api/projects');
+	const projects: Project[] = await response.json();
+	return { projects: projects.slice(0, 3) };
+}

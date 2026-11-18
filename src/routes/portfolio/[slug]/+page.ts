@@ -1,10 +1,8 @@
 import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
-	console.log('params', params);
 	try {
 		const project = await import(`../../../content/projects/${params.slug}.md`);
-		console.log('project', project);
 		return {
 			content: project.default,
 			meta: project.metadata

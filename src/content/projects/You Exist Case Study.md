@@ -15,32 +15,10 @@ github: https://github.com/asarmichil/you-exist
 published: true
 ---
 
-# You Exist: Learning Through Building
+## Overview
 
-You Exist is my ongoing full-stack social application built with SvelteKit, and it's become my playground for learning through iteration. The project started simple but has evolved into something that taught me more about design and user experience than any tutorial ever could.
+You Exist is a full-stack social web app built with SvelteKit. It's where I learned Svelte, UI and UX, and I started it long before AI was any good at development or design, so I worked all of it out by hand.
 
-## The Form Problem
+## The Signup Flow
 
-Early on, I encountered a form company with interfaces that just _felt_ incredible to use [(typeform)](https://www.typeform.com/). I wanted my signup flow to feel that smooth, but I also needed features they didn't offer - specifically, a multi-step routed signup flow where each step was its own page.
-
-I had several options: the new View Transitions API, Svelte's built-in transitions, custom CSS animations, or a motion library. Instead of picking one immediately, I built mini prototypes of each approach.
-
-The View Transitions API looked promising but didn't give me the control I expected. Custom CSS felt too rigid when I wanted to reorder steps. Svelte transitions worked well but had limitations for complex routing scenarios.
-
-## The Solution
-
-I ended up creating a custom component system that leveraged Svelte's transitions in a more flexible way. I built a layout that could dynamically handle step ordering, removal, and addition while maintaining smooth animations between pages.
-
-This taught me that sometimes the best solution isn't choosing between existing tools - it's understanding them well enough to combine them creatively.
-
-## Why I Love SvelteKit
-
-Throughout this project, I keep coming back to how elegant SvelteKit makes complex interactions. The reactivity system just makes sense. State management that would require multiple libraries in React often boils down to simple, readable Svelte stores.
-
-The framework gets out of your way and lets you focus on the actual user experience. Whether it's smooth dark/light mode transitions or complex form validation, SvelteKit provides the primitives to build exactly what you envision.
-
-## Learning Through Iteration
-
-You Exist has taught me that real learning happens when you're solving actual problems, not following tutorials. Each design decision - from navigation patterns to color schemes - forced me to think about user mental models and expectations.
-
-The project is still evolving, and that's the point. It's a living laboratory where I can experiment with new ideas, test different approaches, and build something that genuinely feels good to use.
+I wanted signup to feel as smooth as [Typeform](https://www.typeform.com/), but as a multi-step flow where each step is its own page. I prototyped the options first. The View Transitions API gave too little control, plain CSS animations were too rigid for reordering steps, and Svelte's transitions alone struggled with routing. I ended up building a layout on top of Svelte's transitions that animates between routed pages and lets steps be reordered, added or removed.

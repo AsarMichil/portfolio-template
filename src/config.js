@@ -1,8 +1,8 @@
 export const siteConfig = {
 	// Personal Information
 	name: 'Asar Zuluev',
-	tagline: 'UBC CS',
-	email: 'asar@asarmichil.com',
+	tagline: 'CS student at UBC. I build apps for iPhone, Mac and the web.',
+	email: 'portfolio-questions@asarmichil.com',
 	location: 'Vancouver, BC',
 
 	// Theme
@@ -16,8 +16,6 @@ export const siteConfig = {
 
 	// SEO
 	siteUrl: 'https://asarmichil.com',
-	description: 'Software Engineering Student studying at UBC',
-
-	// Email Form
-	resendEmail: 'resend@youexist.michils.com'
+	description:
+		'Asar Zuluev is a computer science student at UBC who builds apps for iPhone, Mac and the web.'
 };

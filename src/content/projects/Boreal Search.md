@@ -15,4 +15,4 @@ published: true
 
 Boreal searches large sets of PDFs, like legislation and regulatory filings, and returns the pages that answer the question, each opened at the right page.
 
-I'm building it with a cofounder. We're early: the MVP works and we're putting it in front of the people who'll use it.
+I'm building it with a cofounder as a side project while I finish school. We built the MVP in a month and are now putting it in front of the people who'll use it.
