@@ -43,12 +43,6 @@
 				>
 					contact
 				</a>
-				<a
-					href="/resume"
-					class="border-text-primary text-text-primary hover:bg-text-primary inline-flex items-center border-2 px-6 py-3 text-sm font-bold tracking-wide uppercase transition-colors duration-200 hover:text-white"
-				>
-					view my resume!
-				</a>
 			</div>
 
 			<!-- Mobile Menu Button -->
@@ -106,14 +100,6 @@
 						class:bg-black={page.url.pathname === '/contact'}
 					>
 						contact
-					</a>
-				</div>
-				<div>
-					<a
-						href="/resume"
-						class="nav-link rounded-md px-2 py-1 text-lg transition-colors duration-200 hover:bg-black hover:text-white"
-					>
-						view my resume!
 					</a>
 				</div>
 			</div>

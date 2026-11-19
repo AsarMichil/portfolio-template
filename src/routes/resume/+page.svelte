@@ -7,6 +7,10 @@
 
 <Seo title="Resume - {config.name}" description="Download {config.name}'s resume" />
 
+<svelte:head>
+	<meta name="robots" content="noindex" />
+</svelte:head>
+
 <section class="flex flex-col items-center justify-center py-24 md:py-32 lg:py-40">
 	<div class="px-4">
 		<h1 class="text-6xl font-semibold lowercase md:text-7xl lg:text-9xl">resume</h1>

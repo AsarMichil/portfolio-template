@@ -1,7 +1,8 @@
 export const siteConfig = {
 	// Personal Information
 	name: 'Asar Zuluev',
-	tagline: 'CS student at UBC. I build apps for iPhone, Mac and the web.',
+	tagline:
+		'CS student at UBC. Interned at Amazon and SAP. I build apps for iPhone, Mac and the web.',
 	email: 'portfolio-questions@asarmichil.com',
 	location: 'Vancouver, BC',
 
@@ -17,5 +18,5 @@ export const siteConfig = {
 	// SEO
 	siteUrl: 'https://asarmichil.com',
 	description:
-		'Asar Zuluev is a computer science student at UBC who builds apps for iPhone, Mac and the web.'
+		'Asar Zuluev is a computer science student at UBC who has interned at Amazon and SAP and builds apps for iPhone, Mac and the web.'
 };
