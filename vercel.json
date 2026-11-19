@@ -1,0 +1,8 @@
+{
+	"headers": [
+		{
+			"source": "/resume/resume.pdf",
+			"headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
+		}
+	]
+}
